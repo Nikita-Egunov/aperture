@@ -1,0 +1,42 @@
+{
+  "name": "minista-project",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "minista",
+    "build": "minista build",
+    "preview": "minista preview",
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint:fix": "eslint --fix --ext .ts,.tsx src"
+  },
+  "prettier": {
+    "semi": false
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@types/react": "^18.2.16",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^8.39.0",
+    "@typescript-eslint/parser": "^8.39.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^9.33.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.3.0",
+    "jiti": "^2.5.1",
+    "minista": "^3.1.12",
+    "postcss": "^8.5.6",
+    "postcss-pxtorem": "^6.1.0",
+    "prettier": "3.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.1.6",
+    "typescript-eslint": "^8.39.0"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "path": "^0.12.7",
+    "tailwindcss": "^4.1.11"
+  }
+}
