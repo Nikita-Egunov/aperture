@@ -5,6 +5,10 @@
   --font-poppins: "Poppins", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   @apply font-poppins text-white bg-black;
   font-size: 0.875rem;
@@ -25,4 +29,8 @@ h1 {
 
 h2 {
   font-size: 40px;
+}
+
+.undefined {
+  outline: 2px solid red;
 }

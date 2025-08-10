@@ -1,6 +1,6 @@
 import { Icon } from "minista"
 
-type CameraSettingProps = {
+export type CameraSettingProps = {
   iconId: string,
   text: string
 }

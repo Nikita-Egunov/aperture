@@ -26,7 +26,7 @@ export default function Hero({ imgUrl, h1Title, topTitle, subTitle }: Props) {
         height={716}
       />
       <div className="max-w-[600px] text-center text-[#c0c0c0] mb-2.5">
-        <p className="uppercase text-center">{topTitle}</p>
+        <p className="uppercase text-center tracking-[0.14em]">{topTitle}</p>
         <h1 className="text-white">{h1Title}</h1>
         <p>{subTitle}</p>
       </div>

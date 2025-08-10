@@ -1,3 +1,4 @@
-import CameraSetting from "./ui/cameraSetting";
+import CameraSetting, { CameraSettingProps } from "./ui/cameraSetting";
 
 export { CameraSetting }
+export { type CameraSettingProps }

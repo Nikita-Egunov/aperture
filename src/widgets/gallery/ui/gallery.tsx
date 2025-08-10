@@ -9,7 +9,7 @@ type GalleryProps = {
 export default function Gallery({ h2, text, cards }: GalleryProps) {
 
   return (
-    <section className="container mt-[120px] mb-[100px]">
+    <section id="gallery" className="container mt-[120px] mb-[100px]">
       <h2 className="text-center">What we do.</h2>
       <p className="text-neutral-300 text-center">The areas that we're specialized in.</p>
       <div className="mt-[42px] grid grid-cols-1 justify-items-center xl:grid-cols-2 gap-4">

@@ -2,11 +2,11 @@ import { Button } from "@/shared"
 
 export default function NavMenu() {
   const menuItems = [
-    { text: 'Business areas', href: '/' },
-    { text: 'Featured images', href: '/' },
-    { text: 'Gear cage', href: '/' },
-    { text: 'Contact', href: '/' },
-    { text: 'Get template', href: '/' },
+    { text: 'Business areas', href: '/#gallery' },
+    { text: 'Our tools', href: '/#tools' },
+    { text: 'Our clients', href: '/#clients' },
+    { text: 'Contact', href: '/#footer' },
+    { text: 'Get template', href: 'https://t.me/initJs/' },
   ]
   return (
     <nav className="">

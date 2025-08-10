@@ -19,7 +19,7 @@ export default function Button({ url, children, size, text, className }: Props) 
           gap-1.5 
           ${size === 'small' && 'p-1'}
           ${size === 'medium' && 'px-5 py-[11px]'}
-          ${className}
+          ${className ? className : ""}
     `}>
       {children ? children : <Icon className="w-[32px] block aspect-square" iconId="btn-icon" />}
       {text}
